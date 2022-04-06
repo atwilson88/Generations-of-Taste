@@ -9,6 +9,7 @@ public class Restaurant {
         ourMenu.addMenuItem(4.59, "Tacos", "Appetizer", false);
         for(MenuItem item: ourMenu.getMenuItems()) {
             System.out.println(item.getDescription());
+//            System.out.println(InsertHashMapHere());
         }
     }
 }
